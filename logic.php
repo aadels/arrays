@@ -8,10 +8,11 @@ $contestant["mairead"] = "Winner";
 
 <h1>Contestants</h1>
 
-  <?php
-  $j= count($contestant);
-  for ($i=0; $i < $j; $i++){
-     echo $contestant[$i]. "<br>";
-}
+  	<?php
+  	$j= count($contestant);
+  	for ($i=0; $i < $j; $i++){
+    	echo $contestant[$i];
+		echo "<br>";
+	}
 ?>
 
