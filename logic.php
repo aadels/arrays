@@ -8,8 +8,6 @@ $contestant["mairead"] = "Winner";
 
 <h1>Contestants</h1>
 
-<?php
-foreach($contestant as $name => $status) {
-	echo $name." is a ".$status."! <br>";
-}
-?>
+<pre>
+	<?php print_r(?contestants); ?>
+</pre>
