@@ -11,7 +11,7 @@ $contestant["mairead"] = "Winner";
   <?php
   $j= count($contestant);
   for ($i=0; $i <$j; $i++){
-     echo $name." is a ".$status."! <br>";
+     echo $contestant <br>";
 }
 ?>
 
