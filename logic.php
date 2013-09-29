@@ -6,4 +6,3 @@ $contestant["larry"] = "Loser";
 $contestant["mairead"] = "Winner";
 ?>
 
-Larry is a <?=$contestant['larry']?>;
