@@ -8,6 +8,10 @@ $contestant["mairead"] = "Winner";
 
 <h1>Contestants</h1>
 
-<pre>
-	<?php print_r($contestant); ?>
-</pre>
+  <?php
+  j= count($contestant);
+  for ($i=0; $i <$j; $i++){
+     echo $name." is a ".$status."! <br>";
+}
+?>
+
