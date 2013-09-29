@@ -9,5 +9,5 @@ $contestant["mairead"] = "Winner";
 <h1>Contestants</h1>
 
 <pre>
-	<?php print_r(?contestant); ?>
+	<?php print_r($contestant); ?>
 </pre>
