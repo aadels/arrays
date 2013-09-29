@@ -12,7 +12,7 @@
 		<h1>Shopping list</h1>
 
   		<?php
-  			$j=count($shopping_list)
+  			$j=count($shopping_list);
   			for ($i=0; $i < $j; $i++){
     		echo $shopping_list[$i]."<br>";
 			}
