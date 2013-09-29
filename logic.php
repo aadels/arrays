@@ -9,7 +9,7 @@ $contestant["mairead"] = "Winner";
 <h1>Contestants</h1>
 
 <?php
-for each($contestant as $name => $status) {
-	echo $name."is a".$status."! <br>";
+foreach($contestant as $name => $status) {
+	echo $name." is a ".$status."! <br>";
 }
 ?>
