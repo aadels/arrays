@@ -9,7 +9,7 @@
 	</head>
 	<body>
 
-		<h1>Shopping list</h1>
+		<h1>Shopping list using for loop</h1>
 
   		<?php
   			$j=count($shopping_list);
@@ -17,6 +17,16 @@
     		echo $shopping_list[$i]."<br>";
 			}
 		?>
+		<br> <br>
+
+		<h1> Shopping list using foreach loop</h1>
+		<?php
+			$j=count($shopping_list);
+			foreach ($shopping_list as $key => $value){
+				echo $value."<br>";
+			}
+		?>
+
 	</body>
 
 </html>
